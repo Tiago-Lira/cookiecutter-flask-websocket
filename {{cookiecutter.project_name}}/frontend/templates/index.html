@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html lang="en" class="no-js">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>{{cookiecutter.project_name}} - Index</title>
+
+        <link rel="stylesheet" href="/static/components/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/static/components/angular-notify/dist/angular-notify.min.css">
+        <link rel="stylesheet" href="/static/components/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/static/css/app.min.css">
+    </head>
+    <body data-ng-app="{{cookiecutter.project_name}}">
+
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+          <div class="container-fluid">
+            <div class="navbar-header">
+                <a href="javascript:void(0);" class="navbar-brand pull-left">
+                    {{cookiecutter.project_name}} - Index
+                </a>
+            </div>
+          </div>
+        </nav>
+
+        <br/><br/><br/><br/>
+        <div class="container-fluid">
+            <ui-view></ui-view>
+        </div>
+
+        <script src="/static/components/jquery/dist/jquery.min.js"></script>
+        <script src="/static/components/angular/angular.min.js"></script>
+        <script src="/static/components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+        <script src="/static/components/angular-ui-router/release/angular-ui-router.min.js"></script>
+        <script src="/static/components/angular-notify/dist/angular-notify.js"></script>
+        <script src="/static/components/moment/moment.js"></script>
+        <script src="/static/components/moment/locale/pt-br.js"></script>
+        <script src="/static/components/angular-moment/angular-moment.js"></script>
+        <script src="/static/components/ngMask/dist/ngMask.min.js"></script>
+        <script src="/static/js/app.js"></script>
+    </body>
+</html>

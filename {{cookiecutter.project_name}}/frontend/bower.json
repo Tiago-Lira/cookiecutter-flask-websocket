@@ -1,0 +1,18 @@
+{
+  "name": "{{cookiecutter.project_name}}",
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "jquery": "^2.2.1",
+    "angular": "^1.5.0",
+    "angular-route": "^1.5.0",
+    "angular-ui-router": "^0.2.18",
+    "font-awesome": "^4.5.0",
+    "ngMask": "angular-mask#^3.0.16",
+    "angular-notify": "^2.5.0",
+    "angular-bootstrap": "^1.2.4",
+    "angular-moment": "^1.0.0-beta.3"
+  },
+  "resolutions": {
+    "angular": "^1.5.0"
+  }
+}
