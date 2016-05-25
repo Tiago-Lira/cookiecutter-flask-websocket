@@ -1,0 +1,36 @@
+
+# Ignore source of frontend
+frontend/angular
+frontend/node_modules
+frontend/scss
+frontend/.bowerrc
+frontend/bower.json
+frontend/gulpfile.js
+frontend/package.json
+
+# Ignore tests
+tests/
+
+
+.old
+*.db
+*.log
+*.pid
+*.pyc
+*.sck
+*.sqlite3
+*.sqlite3-journal
+*.sublime-*
+*.todo
+*.egg-info
+*~
+.bundle
+.coverage
+.DS_Store
+.vagrant
+output/*
+build/*
+node_modules
+build
+.cache
+*.egg

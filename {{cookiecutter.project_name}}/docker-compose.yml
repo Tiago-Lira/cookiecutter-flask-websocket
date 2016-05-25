@@ -1,0 +1,27 @@
+---
+
+version: '2'
+services:
+  web:
+    restart: always
+    build: .
+    links:
+      - db
+    ports:
+      - '80:5000'
+    environment:
+      CONFIG_ENVIRON: 'development'
+
+  db:
+    image: mongo:latest
+    restart: on-failure:5
+    expose:
+      - '27017'
+
+  dockerui:
+    image: uifd/ui-for-docker
+    privileged: true
+    ports:
+      - '9000:9000'
+    volumes:
+      - '/var/run/docker.sock:/var/run/docker.sock'
